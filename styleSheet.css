@@ -1,0 +1,221 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3-Jan-2018, 8:57:27 PM
+    Author     : I am Prerak Patel and my student number is 000736376 and I haven't shared my program
+*/
+
+body
+{
+    background : #38ed41;
+    font-family: "Arial", sans-serif;
+}
+.register
+{
+    width: 90%;
+    padding: 7%;
+    margin: auto;
+}
+table{ 
+    width:100%;
+}
+.underscore
+{
+    color: #ededed;
+}
+th{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-right: 1px solid #198402;
+    line-height: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    color: #239e09;
+}
+td{
+    padding: 10px 5px 5px 15px;
+    text-align: center;
+    font-weight: 700;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 22px;
+    color:#7f847d;
+    border-bottom: solid 1px #198402;
+}
+input
+{
+    font-size: 22px;
+    width:80px;
+    text-align: center;
+}
+.update 
+{
+    font-family: "Arial", sans-serif;
+    background: #0a9911;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-size: 100%;
+}
+.update:hover
+{
+    background: #018207;
+}
+.text
+{
+    font-family: "Arial", sans-serif;
+    background: #d6dbd7;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.button 
+{
+    font-family: "Arial", sans-serif;
+    background: #0a9911;
+    width: 90%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+}
+.button:hover
+{
+    background: #018207;
+}
+.create
+{
+    font-family: "Arial", sans-serif;
+    background: #0a9911;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+}
+.create:hover
+{
+    background: #018207;
+}
+.sortButton {
+    background-color: #0a9911;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.sortDivison {
+    position: relative;
+    display: inline-block;
+}
+
+.sortLinks {
+    display: none;
+    position: absolute;
+    background-color: #e6ede7;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
+
+.sortLinks a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sortLinks a:hover {background-color: #ededed}
+
+.sortDivison:hover .sortLinks {
+    display: block;
+}
+
+.sortDivison:hover .sortButton {
+    background-color: #018207;
+}
+
+.registerform 
+{
+    background: #ededed;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
+.registerform h1
+{
+    color: #83917f;
+}
+.registerform input
+{
+    font-family: "Arial", sans-serif;
+    background: #d6dbd7;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.registerform .button 
+{
+    font-family: "Arial", sans-serif;
+    background: #0a9911;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+}
+.registerform button:hover
+{
+    background: #018207;
+}
+.registerform h2
+{
+    font-size: 22px;
+}
+.registerform .display
+{
+    margin: 15px;
+    color: grey;
+    font-size: 12px;
+}
+.registerform .display a
+{
+    color: #38ed41;
+    text-decoration: none;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.tableForm
+{
+    width: 90%;
+    padding: 7%;
+    margin: auto;
+}
+.tableDisplay h1
+{
+    color: #83917f;
+}
+.tableDisplay 
+{
+    background: #ededed;
+    width: 90%;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
